@@ -1,0 +1,18 @@
+# Server configuration for PocketMine-MP
+# Copy this file to ~/minecraft-bedrock-server/server.properties
+
+motd=PocketMine Server
+sub-motd=Bedrock server running on Android
+server-port=19132
+server-ip=0.0.0.0
+white-list=false
+online-mode=false
+max-players=10
+gamemode=survival
+difficulty=easy
+allow-cheats=false
+spawn-protection=0
+level-name=world
+level-type=default
+enable-query=false
+enable-rcon=false

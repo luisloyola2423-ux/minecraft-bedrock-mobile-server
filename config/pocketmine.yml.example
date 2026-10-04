@@ -1,0 +1,18 @@
+# PocketMine configuration example
+# Copy this file to ~/minecraft-bedrock-server/pocketmine.yml
+
+settings:
+  language: en_US
+  shutdown-message: Server closed
+  query-plugins: true
+  enforce-secure-profile: false
+
+network:
+  max-mtu-size: 1492
+  enable-proxy-protocol: false
+
+performance:
+  async-workers: 4
+
+debug:
+  level: 1
